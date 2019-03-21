@@ -15,11 +15,10 @@ def pop_with_args(array)
 end
 
 def using_shift(array)
-  arr=array.shift
-  return arr
+  array.shift
 end
 
-def using_shift(array)
+def shift_with_args(array)
   array.shift(2)
 end
 
